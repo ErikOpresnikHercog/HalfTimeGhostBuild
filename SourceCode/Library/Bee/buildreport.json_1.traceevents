@@ -1,0 +1,643 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1792946868638282, "dur": 1646972, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1792946868638500, "dur": 7981, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1792946868646483, "dur": 33800, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1792946868680284, "dur": 821848, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1792946869502134, "dur": 769529, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1792946870271665, "dur": 13588, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1792946870285924, "dur": 13, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1792946869310880, "dur": 176969, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1792946869311731, "dur": 36376, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1792946869474789, "dur": 4078, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1792946869478870, "dur": 8974, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1792946869479403, "dur": 7653, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1792946869491583, "dur": 1026, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1792946869490944, "dur": 1682, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1792946870286051, "dur": 231, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1792946869547423, "dur":1791, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1792946869549225, "dur":114, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1792946869549404, "dur":38, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1792946869549444, "dur":1003, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1792946869550483, "dur":766, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1792946869551249, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1792946870256563, "dur":336, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1792946870256899, "dur":48, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1792946870256947, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1792946870256950, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1792946870256967, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1792946870256968, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1792946870256985, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1792946870256986, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1792946870257003, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1792946870257005, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1792946870257021, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1792946870257023, "dur":22, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1792946870257045, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1792946870257047, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1792946870257063, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1792946870257064, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1792946870257085, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1792946870257086, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1792946870257103, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1792946870257104, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1792946870257121, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1792946870257123, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1792946870257140, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1792946870257142, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1792946870257159, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1792946870257161, "dur":17, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1792946870257178, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1792946870257180, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1792946870257199, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1792946870257201, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1792946870257219, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1792946870257220, "dur":19, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1792946870257240, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1792946870257259, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1792946870257281, "dur":2439, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1792946869550642, "dur":616, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1792946869551261, "dur":5659, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1792946869556933, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1792946869556945, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1792946869558156, "dur":571, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1792946869558732, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1792946869558865, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1792946869559693, "dur":2554, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1792946869562250, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1792946869562297, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1792946869562636, "dur":25966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1792946869588631, "dur":4541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1792946869593178, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1792946869593191, "dur":5060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1792946869598323, "dur":4539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1792946869602867, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1792946869602873, "dur":2699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1792946869605646, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1792946869605861, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1792946869605866, "dur":4034, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1792946869609961, "dur":3809, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1792946869613774, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1792946869613780, "dur":2429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1792946869616279, "dur":4087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1792946869620370, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1792946869620376, "dur":5230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1792946869625663, "dur":4413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1792946869630082, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1792946869630091, "dur":3748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1792946869633945, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1792946869634218, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1792946869634223, "dur":4531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1792946869638818, "dur":186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1792946869639008, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1792946869639015, "dur":7985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1792946869647093, "dur":335, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1792946869647431, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1792946869647446, "dur":52630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.Postprocessing.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1792946869700151, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":1, "ts":1792946869700367, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1792946869700375, "dur":37148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":1, "ts":1792946869737596, "dur":1023, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1792946869738622, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1792946869738629, "dur":12670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1792946869751536, "dur":780, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1792946869752319, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1792946869752326, "dur":16062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1792946869768445, "dur":1498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1792946869769947, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1792946869769952, "dur":53601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1792946869823632, "dur":2638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/AstarPathfindingProject.dll" }}
+,{ "pid":12345, "tid":1, "ts":1792946869826274, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1792946869826284, "dur":88751, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/AstarPathfindingProject.dll" }}
+,{ "pid":12345, "tid":1, "ts":1792946869915095, "dur":341562, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1792946869550676, "dur":589, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1792946869551265, "dur":5662, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1792946869556933, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1792946869557023, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1792946869560265, "dur":16379, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1792946869576682, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1792946869577019, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1792946869577028, "dur":38353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1792946869615418, "dur":4950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1792946869620371, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1792946869620376, "dur":4920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1792946869625355, "dur":4906, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1792946869630265, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1792946869630271, "dur":3948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1792946869634298, "dur":501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1792946869634801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1792946869634806, "dur":4890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1792946869639792, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1792946869639997, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1792946869640002, "dur":34050, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1792946869674120, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":2, "ts":1792946869674351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1792946869674360, "dur":57228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":2, "ts":1792946869731649, "dur":280, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1792946869731931, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1792946869731936, "dur":4362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":2, "ts":1792946869736364, "dur":421, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1792946869736788, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1792946869736796, "dur":7957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1792946869744831, "dur":312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1792946869745146, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1792946869745151, "dur":23165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1792946869768377, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1792946869768605, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1792946869768612, "dur":50021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1792946869818725, "dur":13752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1792946869832484, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1792946869832496, "dur":77787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1792946869910353, "dur":246, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1792946869910602, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1792946869910731, "dur":4096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1792946869914889, "dur":341834, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1792946869550712, "dur":560, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1792946869551272, "dur":5657, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1792946869556966, "dur":21791, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1792946869578760, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1792946869578766, "dur":1393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1792946869580186, "dur":3635, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1792946869583824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1792946869583829, "dur":1470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1792946869585349, "dur":3802, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1792946869589159, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1792946869589173, "dur":3310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1792946869592560, "dur":6027, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1792946869598591, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1792946869598599, "dur":3207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1792946869601879, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1792946869602111, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1792946869602116, "dur":2132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1792946869604411, "dur":4647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1792946869609064, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1792946869609071, "dur":2220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1792946869611362, "dur":3449, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1792946869614816, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1792946869614851, "dur":4005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1792946869618931, "dur":374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1792946869619368, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1792946869619373, "dur":5151, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1792946869624596, "dur":1375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1792946869625974, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1792946869625979, "dur":4533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1792946869630586, "dur":3763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1792946869634352, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1792946869634357, "dur":4808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1792946869639245, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1792946869639445, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1792946869639449, "dur":20334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1792946869659843, "dur":1004, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1792946869660851, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1792946869660858, "dur":70019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1792946869730977, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1792946869731212, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1792946869731219, "dur":2503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1792946869733781, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1792946869733973, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1792946869733978, "dur":11415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1792946869745450, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1792946869745644, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1792946869745648, "dur":23152, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1792946869768852, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1792946869769098, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1792946869769103, "dur":52150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1792946869821350, "dur":494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1792946869821848, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1792946869821858, "dur":29414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":3, "ts":1792946869851371, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1792946869851461, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1792946869851469, "dur":47696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1792946869899319, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1792946869899567, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1792946869899581, "dur":6356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1792946869906000, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1792946869906077, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1792946869906088, "dur":8955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1792946869915109, "dur":341537, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1792946869550754, "dur":525, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1792946869551279, "dur":5667, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1792946869556947, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1792946869557143, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1792946869577247, "dur":13248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1792946869590526, "dur":5012, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1792946869595545, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1792946869595555, "dur":2639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1792946869598252, "dur":4338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1792946869602597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1792946869602602, "dur":3249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1792946869605915, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1792946869606136, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1792946869606140, "dur":4044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1792946869610264, "dur":3585, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1792946869613853, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1792946869613858, "dur":3711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1792946869617645, "dur":325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1792946869617972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1792946869617977, "dur":4355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1792946869622398, "dur":4147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1792946869626550, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1792946869626555, "dur":3540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":4, "ts":1792946869630177, "dur":4275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1792946869634455, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1792946869634487, "dur":5153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1792946869639706, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1792946869639907, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1792946869639911, "dur":18318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1792946869658290, "dur":325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":4, "ts":1792946869658618, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1792946869658626, "dur":34219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":4, "ts":1792946869692921, "dur":104904, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":4, "ts":1792946869797870, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1792946869797885, "dur":28387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":4, "ts":1792946869826343, "dur":375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1792946869826720, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1792946869826725, "dur":88112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1792946869914895, "dur":341775, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1792946869550794, "dur":491, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1792946869551286, "dur":5640, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1792946869556933, "dur":53341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1792946869610277, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1792946869610780, "dur":1325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1792946869612131, "dur":5467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1792946869617603, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1792946869617607, "dur":4292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1792946869621976, "dur":4151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1792946869626131, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1792946869626138, "dur":3292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1792946869629511, "dur":435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1792946869629949, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1792946869629956, "dur":3939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1792946869633964, "dur":293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1792946869634272, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1792946869634283, "dur":4526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":5, "ts":1792946869638868, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1792946869639034, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1792946869639039, "dur":7920, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":5, "ts":1792946869647052, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1792946869647275, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1792946869647281, "dur":43207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":5, "ts":1792946869690599, "dur":52831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1792946869743434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1792946869743439, "dur":183999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":5, "ts":1792946869927528, "dur":329099, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1792946869550813, "dur":477, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1792946869551290, "dur":5679, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1792946869556972, "dur":10788, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1792946869567765, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1792946869567854, "dur":935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1792946869568804, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1792946869568833, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1792946869568837, "dur":8784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":6, "ts":1792946869577648, "dur":782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost.exe" }}
+,{ "pid":12345, "tid":6, "ts":1792946869578432, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1792946869578438, "dur":1866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost.exe" }}
+,{ "pid":12345, "tid":6, "ts":1792946869580434, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1792946869580646, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1792946869580752, "dur":1154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1792946869581960, "dur":2725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1792946869584689, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1792946869584693, "dur":1092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1792946869585830, "dur":2953, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1792946869588787, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1792946869588794, "dur":1695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1792946869590568, "dur":4823, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1792946869595396, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1792946869595404, "dur":3342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1792946869598829, "dur":4410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1792946869603244, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1792946869603250, "dur":2171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1792946869605641, "dur":281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1792946869605925, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1792946869605930, "dur":4661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1792946869610652, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1792946869610922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1792946869610927, "dur":2461, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1792946869613470, "dur":370, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1792946869613843, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1792946869613847, "dur":3662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1792946869617577, "dur":352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1792946869617933, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1792946869617941, "dur":4624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1792946869622642, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1792946869622839, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1792946869622845, "dur":3511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1792946869626423, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1792946869626678, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1792946869626683, "dur":4791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1792946869631568, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1792946869631849, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1792946869631854, "dur":3540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":6, "ts":1792946869635465, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1792946869635657, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1792946869635662, "dur":5503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":6, "ts":1792946869641252, "dur":951, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1792946869642207, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1792946869642216, "dur":46468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1792946869688753, "dur":591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":6, "ts":1792946869689347, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1792946869689358, "dur":30760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":6, "ts":1792946869720198, "dur":341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1792946869720542, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1792946869720552, "dur":20252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1792946869740871, "dur":315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1792946869741189, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1792946869741195, "dur":19479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1792946869760743, "dur":2083, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1792946869762831, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1792946869762839, "dur":199682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":6, "ts":1792946869962582, "dur":294011, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1792946869550843, "dur":453, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1792946869551296, "dur":5656, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1792946869556953, "dur":20982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1792946869577940, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1792946869577948, "dur":1596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1792946869579584, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1792946869579854, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1792946869580212, "dur":1454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1792946869581723, "dur":3607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1792946869585336, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1792946869585346, "dur":1217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1792946869586605, "dur":3170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1792946869589780, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1792946869589788, "dur":4093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1792946869593938, "dur":4961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1792946869598903, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1792946869598908, "dur":3185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1792946869602167, "dur":3338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1792946869605509, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1792946869605517, "dur":4647, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1792946869610242, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1792946869610490, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1792946869610496, "dur":2964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1792946869613523, "dur":3926, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1792946869617454, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1792946869617459, "dur":4760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1792946869622304, "dur":3837, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1792946869626146, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1792946869626152, "dur":4316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1792946869630546, "dur":250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1792946869630799, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1792946869630804, "dur":3613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1792946869634504, "dur":183, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":7, "ts":1792946869634689, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1792946869634694, "dur":4567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":7, "ts":1792946869639346, "dur":336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1792946869639685, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1792946869639694, "dur":10783, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":7, "ts":1792946869650538, "dur":804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1792946869651380, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1792946869651389, "dur":55206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1792946869706676, "dur":492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1792946869707172, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1792946869707179, "dur":34397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1792946869741646, "dur":2394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1792946869744050, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1792946869744060, "dur":47987, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1792946869792122, "dur":671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Pathfinding.Ionic.Zip.Reduced.dll" }}
+,{ "pid":12345, "tid":7, "ts":1792946869792796, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1792946869792803, "dur":28496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Pathfinding.Ionic.Zip.Reduced.dll" }}
+,{ "pid":12345, "tid":7, "ts":1792946869821407, "dur":583, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1792946869821994, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1792946869822003, "dur":43731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1792946869865818, "dur":390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1792946869866212, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1792946869866219, "dur":93716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1792946869960028, "dur":296571, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1792946869550862, "dur":439, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1792946869551301, "dur":5648, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1792946869556950, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1792946869557093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1792946869565525, "dur":11404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1792946869576951, "dur":665253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1792946870242213, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1792946870242222, "dur":14237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":8, "ts":1792946870256485, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":8, "ts":1792946870256488, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1792946869550895, "dur":411, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1792946869551306, "dur":5647, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1792946869556954, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1792946869557038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1792946869560222, "dur":16434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1792946869576687, "dur":307320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1792946869884016, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1792946869892211, "dur":25161, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1792946869917403, "dur":339235, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1792946869550954, "dur":358, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1792946869551312, "dur":5645, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1792946869556958, "dur":44466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1792946869601428, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1792946869601436, "dur":4325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1792946869605786, "dur":340, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1792946869606129, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1792946869606134, "dur":3791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1792946869609991, "dur":4213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1792946869614208, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1792946869614212, "dur":4708, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1792946869619081, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1792946869619333, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1792946869619338, "dur":4787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1792946869624244, "dur":4111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1792946869628361, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1792946869628372, "dur":3357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1792946869631817, "dur":475, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1792946869632295, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1792946869632301, "dur":4109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":10, "ts":1792946869636477, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1792946869636669, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1792946869636674, "dur":5463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1792946869642212, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":10, "ts":1792946869642504, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1792946869642509, "dur":48419, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":10, "ts":1792946869690996, "dur":148130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":10, "ts":1792946869839135, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1792946869839145, "dur":65079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":10, "ts":1792946869904282, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/level0" }}
+,{ "pid":12345, "tid":10, "ts":1792946869904347, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1792946869904357, "dur":3942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/level0" }}
+,{ "pid":12345, "tid":10, "ts":1792946869908390, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1792946869908468, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1792946869908476, "dur":5468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":10, "ts":1792946869914005, "dur":342549, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1792946869551005, "dur":313, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1792946869551318, "dur":5641, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1792946869556965, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1792946869557038, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1792946869564120, "dur":25855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1792946869590004, "dur":307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1792946869590315, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1792946869590457, "dur":3476, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1792946869593998, "dur":4232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1792946869598234, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1792946869598243, "dur":1412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1792946869599740, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1792946869599983, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1792946869600012, "dur":3294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1792946869603401, "dur":478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1792946869603881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1792946869603885, "dur":2631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1792946869606595, "dur":4569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1792946869611167, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1792946869611171, "dur":3011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1792946869614261, "dur":356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1792946869614620, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1792946869614624, "dur":4721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1792946869619420, "dur":4761, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1792946869624185, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1792946869624193, "dur":2927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1792946869627215, "dur":5084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1792946869632303, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1792946869632309, "dur":3658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1792946869636048, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":11, "ts":1792946869636236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1792946869636241, "dur":4667, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":11, "ts":1792946869640990, "dur":191, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":11, "ts":1792946869641185, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1792946869641216, "dur":48897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":11, "ts":1792946869690201, "dur":66860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":11, "ts":1792946869757067, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1792946869757076, "dur":24130, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":11, "ts":1792946869781273, "dur":409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1792946869781685, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1792946869781692, "dur":58396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1792946869840158, "dur":24716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":11, "ts":1792946869864882, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1792946869866186, "dur":30627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":11, "ts":1792946869896933, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1792946869897005, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1792946869897017, "dur":9266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1792946869906341, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1792946869906400, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1792946869906404, "dur":6237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":11, "ts":1792946869912712, "dur":343847, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1792946869551042, "dur":281, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1792946869551323, "dur":5638, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1792946869556962, "dur":151, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1792946869557116, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1792946869571235, "dur":6362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1792946869577628, "dur":396808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1792946869974443, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1792946869974453, "dur":4502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":12, "ts":1792946869978988, "dur":277586, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1792946869551062, "dur":265, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1792946869551327, "dur":5645, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1792946869556978, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1792946869557120, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1792946869571385, "dur":6462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1792946869577871, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":13, "ts":1792946869577992, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1792946869578406, "dur":134469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":13, "ts":1792946869712914, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1792946869713141, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1792946869713153, "dur":19753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":13, "ts":1792946869732981, "dur":9920, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":13, "ts":1792946869742904, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1792946869742910, "dur":100017, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":13, "ts":1792946869843005, "dur":182, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":13, "ts":1792946869843191, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1792946869844331, "dur":48496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":13, "ts":1792946869892896, "dur":25025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":13, "ts":1792946869917928, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1792946869917939, "dur":10730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":13, "ts":1792946869928733, "dur":327884, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1792946869551084, "dur":247, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1792946869551331, "dur":5655, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1792946869556986, "dur":45847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1792946869602838, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1792946869602846, "dur":4031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1792946869606905, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1792946869607137, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1792946869607142, "dur":4075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1792946869611286, "dur":3942, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1792946869615232, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1792946869615238, "dur":4594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1792946869619917, "dur":4374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1792946869624299, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1792946869624308, "dur":4062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1792946869628470, "dur":4810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1792946869633284, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1792946869633291, "dur":3404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1792946869636766, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":14, "ts":1792946869636995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1792946869637000, "dur":6800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":14, "ts":1792946869643878, "dur":589, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1792946869644470, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1792946869644475, "dur":92162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1792946869736703, "dur":469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":14, "ts":1792946869737174, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1792946869737181, "dur":14304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":14, "ts":1792946869751556, "dur":25447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":14, "ts":1792946869777010, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1792946869777020, "dur":32008, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":14, "ts":1792946869809094, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":14, "ts":1792946869809341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1792946869809348, "dur":36128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":14, "ts":1792946869845554, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":14, "ts":1792946869845613, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1792946869845749, "dur":6551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":14, "ts":1792946869852370, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":14, "ts":1792946869852438, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1792946869852443, "dur":98671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":14, "ts":1792946869951190, "dur":305420, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1792946869551107, "dur":229, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1792946869551336, "dur":5605, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1792946869556943, "dur":44814, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1792946869601766, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1792946869601779, "dur":4511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1792946869606315, "dur":4603, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1792946869610924, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1792946869610934, "dur":2356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1792946869613359, "dur":369, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1792946869613731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1792946869613738, "dur":2682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1792946869616543, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1792946869616795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1792946869616802, "dur":2586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1792946869619469, "dur":379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1792946869619852, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1792946869619857, "dur":4959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1792946869624890, "dur":3908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1792946869628803, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1792946869628814, "dur":3405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1792946869632288, "dur":766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1792946869633057, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1792946869633063, "dur":3519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":15, "ts":1792946869636651, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":15, "ts":1792946869636826, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1792946869636833, "dur":5713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":15, "ts":1792946869643017, "dur":314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":15, "ts":1792946869643335, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1792946869643341, "dur":64175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":15, "ts":1792946869707584, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":15, "ts":1792946869707755, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1792946869707759, "dur":30977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":15, "ts":1792946869738795, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1792946869739041, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1792946869739047, "dur":5566, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1792946869744698, "dur":229, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":15, "ts":1792946869744929, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1792946869744935, "dur":49542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":15, "ts":1792946869794579, "dur":1003, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":15, "ts":1792946869795586, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1792946869795594, "dur":55567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":15, "ts":1792946869851258, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/Half Time Ghost_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":15, "ts":1792946869851332, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1792946869851338, "dur":114075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/Half Time Ghost_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":15, "ts":1792946869968313, "dur":288271, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1792946869551129, "dur":212, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1792946869551341, "dur":5597, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1792946869556941, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1792946869557057, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1792946869564577, "dur":12299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":16, "ts":1792946869576907, "dur":492244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/builds/half Time ghost/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":16, "ts":1792946870069160, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1792946870069345, "dur":5785, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/builds/half Time ghost/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":16, "ts":1792946870075160, "dur":181405, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1792946870261354, "dur":1953, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1792946870286348, "dur": 710, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1792946870285909, "dur": 1195, "ph": "X", "name": "Write chrome-trace events", "args": {} },

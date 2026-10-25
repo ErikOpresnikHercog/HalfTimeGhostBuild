@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - DeathFloor
+  - music
+  - LevelLoader
+  - ghost
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Post
+  - Water
+  - UI
+  - Player
+  - Obstacle
+  - wall
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: lowest
+    uniqueID: 432280975
+    locked: 0
+  - name: lower-ground
+    uniqueID: 1342767157
+    locked: 0
+  - name: ground
+    uniqueID: 2219833089
+    locked: 0
+  - name: rocks2
+    uniqueID: 3601670479
+    locked: 0
+  - name: secondGround
+    uniqueID: 2585298777
+    locked: 0
+  - name: small foliage
+    uniqueID: 1252427335
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 2872974609
+    locked: 0
